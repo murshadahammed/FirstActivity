@@ -1,0 +1,57 @@
+
+
+.title{
+    min-height: 10rem;
+    width: 40%;
+}
+
+.control {
+    /* margin: 1rem 0rem; */
+    display: flex;
+    
+  }
+  
+  .control label,
+  .control input {
+    display: block;
+  }
+  
+  .control label {
+    font-weight: bold;
+    flex: 1;
+    color: #464646;
+    margin-bottom: 0.5rem;
+    /* margin-left: 10%; */
+    padding: 10px;
+  
+  }
+  
+  .control input {
+    flex: 5;
+    font: inherit;
+    padding: 0.35rem 0.35rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin:auto;
+   
+    
+   
+  }
+  
+  .control input:focus {
+    outline: none;
+    border-color: #4f005f;
+    background: #f6dbfc;
+  }
+  
+  .control.invalid input {
+    border-color: rgb(26, 83, 43);
+    background: #f6faf8;
+  }
+  .button{
+    margin-left: 40%;
+    margin-top: 4%;
+    background-color: rgb(77, 160, 121);
+    border-radius: 20%;
+    padding: 0.4rem 1rem 0.4rem 1rem ;
+  }
